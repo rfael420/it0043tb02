@@ -1,0 +1,90 @@
+/* BODY BACKGROUND AND ALIGNMENT */
+body {
+    width: 100vw;
+    height: 100vh;
+    margin: 0% auto;
+    background-position: center;
+    background-image: url(feubackground.jpg);
+    background-size: cover;
+}
+
+
+/* LOGO SIZE */
+.logo {
+    height: 150px;
+}
+
+
+
+/* FOR HEADER 1 */
+.h1{
+    font-family: 'Times New Roman', Times, serif;
+    font-style: bold;
+    color: yellow;
+}
+
+.h1-size1{
+    font-size: 75px;
+}
+
+
+
+
+
+/* FOR HEADER 2 */
+.h2 {
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 100;
+}
+
+.h2-size1{
+    font-size: 50px;
+}
+
+.h2-size2{
+    font-size: 30px;
+}
+
+
+
+
+
+/* NORMAL TEXT */
+.p1 {
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 100;
+    font-size: 30px;
+}
+
+
+/* BOLD TEXT */
+.p2 {
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 100;
+    font-style: bold;
+}
+
+
+/* COLOR HIGHLIGHT */
+.color{
+    color: yellow;
+}
+
+
+/* TEXT ALIGNMENT (CENTERED) */
+.alignment{
+    text-align: center;
+}
+
+/* TEXT ALIGNMENT (RIGHT) */
+.alignment-2{
+    text-align: right;
+}
+
+/* FONT STYLE */
+.style{
+    font-style: italic;
+}
