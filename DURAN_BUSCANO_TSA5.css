@@ -4,8 +4,11 @@
     gap: 20px;
     justify-content: center;
     padding: 20px;
-    background-image: url('');
-    background-size: 100% 100%;
+    background-image: url('https://i.redd.it/lhnvupvps4h91.gif');
+    background-size: auto 100%;
+    background-repeat: no-repeat;
+    border: 2px rgb(8, 20, 4) solid;
+    border-radius: 2%;
 }
 
 .card {
@@ -15,13 +18,17 @@
     border: 2px solid rgb(29, 29, 179);
     /* Added 'solid' for the border */
     border-radius: 5%;
-    box-shadow: 10px 10px 1px rgb(93, 94, 93);
+    box-shadow: 10px 10px 1px rgb(0, 0, 0);
+    animation: mymove 5s infinite;
     display: flex;
     flex-direction: column;
     overflow: hidden;
     background-size: 160%;
 }
 
+@keyframes mymove {
+    50% {box-shadow: 10px 20px 30px rgb(0, 0, 0);}
+}
 .details {
     font-weight: bold;
     text-align: center;
@@ -198,3 +205,4 @@
 .release:hover {
     background-color: rgb(98, 98, 98);
 }
+
