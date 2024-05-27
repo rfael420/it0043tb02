@@ -172,6 +172,9 @@ body {
 
 @media (max-width: 750px) {
 
+    .container{
+        padding: 100px;
+    }
     .icons {
         flex-direction: column;
         height: 450px;
