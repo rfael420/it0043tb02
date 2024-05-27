@@ -1,0 +1,230 @@
+body {
+    background-color: black;
+}
+
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-content: center;
+    gap: 20px;
+    padding: 20px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border: 2px rgb(8, 20, 4) solid;
+    background-image: url(https://cdna.artstation.com/p/assets/images/images/026/128/252/original/lennart-butz-idea5anim.gif?1587962316);
+    background-attachment: fixed;
+    background-position: center;
+    transition: 3s all ease;
+}
+
+@keyframes mymove {
+    50% {
+        box-shadow: 10px 20px 30px rgb(0, 0, 0);
+    }
+}
+
+.icons {
+    height: 350px;
+    width: 300px;
+    margin: 0;
+    padding: 25px;
+    gap: 10px;
+    flex-grow: 1;
+    border: 3px solid black;
+    border-radius: 10px;
+    box-shadow: 10px 10px 1px rgb(0, 0, 0);
+    animation: mymove 5s infinite;
+}
+
+
+.image {
+    height: 300px;
+    padding: 30px;
+    align-content: center;
+}
+
+
+.content-visibility {
+    display: none;
+}
+
+
+
+.abra {
+    background-color: #E2B90E;
+
+
+}
+
+
+.bellsprout {
+    background-color: rgb(255, 248, 0);
+}
+
+
+.bullbasaur {
+    background-color: rgb(26, 142, 28);
+}
+
+
+.caterpie {
+    background-color: rgb(131, 216, 57);
+}
+
+
+.charmander {
+    background-color: rgb(247, 120, 25);
+}
+
+
+
+
+.dratini {
+    background-color: rgb(66, 177, 232);
+}
+
+
+
+
+.eevee {
+    background-color: rgb(211, 150, 76);
+}
+
+
+
+
+.haunter {
+    background-color: rgb(146, 124, 201);
+}
+
+
+
+
+.jigglypuff {
+    background-color: rgb(239, 163, 204);
+}
+
+
+
+
+.mankey {
+    background-color: rgb(226, 191, 145);
+}
+
+
+
+
+.meowth {
+    background-color: rgb(234, 228, 197);
+}
+
+
+.pikachu {
+    background-color: rgb(255, 212, 0);
+}
+
+
+@media (max-width: 1250px) {
+    .icons {
+        flex-direction: row;
+        height: 100px;
+        width: 100vw;
+        justify-content: space-between;
+        display: flex;
+        align-content: center;
+
+    }
+
+    .image {
+        height: 100px;
+        /* width: 100px; */
+        padding: 0;
+        /* margin-right: 30vw; */
+    }
+
+    .pokeball {
+        display: inline;
+        height: 100px;
+        /* margin-left: 28vw aut; */
+    }
+
+    .pokemon {
+        display: inline;
+        font-family: monospace;
+        font-size: 50px;
+    }
+
+    .content-visibility {
+        display: inline;
+    }
+
+    :hover.icons {
+        background-image: url(https://st2.depositphotos.com/7507618/12045/v/450/depositphotos_120454410-stock-illustration-pokeball-seamless-pattern.jpg);
+        transition: 50ms all ease-in;
+        -webkit-transform: scale(1.1) rotate(4deg);
+        transform: scale(1.1) rotate(4deg);
+
+    }
+
+}
+
+@media (max-width: 750px) {
+
+    .icons {
+        flex-direction: column;
+        height: 450px;
+        width: 300px;
+        margin: 0;
+        padding: 25px;
+        gap: 10px;
+        flex-grow: 1;
+        border: 3px solid black;
+        border-radius: 10px;
+        box-shadow: 10px 10px 1px rgb(0, 0, 0);
+        animation: mymove 5s infinite;
+        align-content: center;
+    }
+
+    .center{
+        padding: 0;
+        align-content: center;
+        margin: 0 auto;
+        text-align: center;
+        font-family: monospace;
+    }
+    
+
+    .image {
+        height: 350px;
+    }
+
+    .pokeball {
+        display: inline;
+        height: 100px;
+        /* margin-left: 28vw aut; */
+    }
+
+    .pokemon {
+        display: inline;
+        font-family: monospace;
+        font-size: 70px;
+        text-align: center;
+    }
+
+    .content-visibility {
+        display: none;
+    }
+
+    .text-visibility {
+        display: inline;
+    }
+
+    :hover.icons {
+        background-image: url(https://st2.depositphotos.com/7507618/12045/v/450/depositphotos_120454410-stock-illustration-pokeball-seamless-pattern.jpg);
+        transition: 50ms all ease-in;
+        -webkit-transform: scale(1.1) rotate(4deg);
+        transform: scale(1.1) rotate(4deg);
+    }
+}
