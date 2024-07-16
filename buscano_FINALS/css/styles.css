@@ -571,6 +571,7 @@ section {
     .contact__form {
         grid-template-columns: 1fr;
         width: auto;
+        padding: 10px;
     }
 
     .contact__group {
